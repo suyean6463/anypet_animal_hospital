@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니펫동물병원-애견미용</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sub12.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script>
+        window.onload = function(){
+            $('#grooming').find('>h1').animate({'opacity':'1'},1000);
+            
+            var list_zone = document.getElementById("g_list");
+            var list_a = list_zone.getElementsByTagName("a");
+            for(var i=0; i<list_a.length; i++){
+                list_a[i].onclick = function(){
+                    var ph = document.getElementById("photo").children[0];
+                    ph.src = this.href;
+                    return false;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="top_menu">
+    <ul class="tlb">
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+</div>
+<div id="header_wrap">
+<div id="header">
+	<a href="index.html"><img src="images/logo.png" alt=""></a>
+	<a href="javascript:;" class="btn-menu"></a>
+	<div id="hide_wrap">
+        <ul class="hide">
+            <li><a href="sub00.html">병원소개</a></li>
+            <li><a href="sub05.html">진료과</a></li>
+            <li><a href="sub09.html">진료안내</a></li>
+            <li><a href="sub11.html">편의시설</a></li>
+            <li><a href="sub13.html">나눔소통</a></li>
+        </ul>
+	</div>
+	<ul class="hlb">
+		 <li><a href="sub00.html">병원소개</a>
+			 <ul class="slb1 slb">
+			 	<li><a href="sub00.html">병원소개</a></li>
+				<li><a href="sub01.html">원장인사말</a></li>
+				<li><a href="sub02.html">병원조직도</a></li>
+				<li><a href="sub03.html">오시는길</a></li>
+				<li><a href="sub04.html">병원시설</a></li>
+			</ul>
+		 </li>
+		 <li><a href="sub05.html">진료과</a>
+			 <ul class="slb2 slb">
+				<li><a href="sub05.html">내과</a></li>
+				<li><a href="sub06.html">외과</a></li>
+				<li><a href="sub07.html">안과</a></li>
+				<li><a href="sub08.html">영상의학과</a></li>
+			</ul>
+		 </li>
+		 <li><a href="sub09.html">진료안내</a>
+			<ul class="slb3 slb">
+				<li><a href="sub09.html">진료안내 및 예약</a></li>
+				<li><a href="sub10.html">수술 안내</a></li>
+			</ul>
+		 </li>
+		 <li><a href="sub11.html">편의시설</a>
+			<ul class="slb4 slb">
+				<li><a href="sub11.html">애견호텔</a></li>
+				<li><a href="sub12.html">애견미용</a></li>
+			</ul>
+		 </li>
+		 <li><a href="sub13.html">나눔소통</a>
+			<ul class="slb5 slb">
+				<li><a href="sub13.html">유기동물봉사</a></li>
+				<li><a href="sub14.html">유기동물입양</a></li>
+			</ul>
+		 </li>
+	</ul>
+</div>
+</div>
+<div id="main_wrap">
+<div id="main">
+</div>
+</div>
+
+<div id="grooming">
+    <h1>애견미용 안내</h1>
+    <div id="gallery">
+        <p id="photo">
+    	    <img src="images/grm1.png" alt="">
+    	</p>
+    	<div id="g_list">
+            <ul>
+                <li><a href="images/grm1.png"><img src="images/grm1.png" alt=""></a></li>
+                <li><a href="images/grm2.png"><img src="images/grm2.png" alt=""></a></li>
+                <li><a href="images/grm3.png"><img src="images/grm3.png" alt=""></a></li>
+                <li><a href="images/grm4.png"><img src="images/grm4.png" alt=""></a></li>
+                <li><a href="images/grm5.png"><img src="images/grm5.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="info">
+        <h2>화~토 open / 100% 예약제</h2>
+        <p>
+            목욕을 마친 반려견은 미용에 들어갑니다. 반려견의 크기와 모질에 따라 1시간에서 최대 4시간까지 소요되는 미용은 반려견의 컨디션을 확인하며 꼼꼼한 스타일링이 이뤄집니다.<br><br> 하이드로바스 탄산스파, 초대형 드라이룸 등 미용에 관한 최신 설비시설과 전문 자격증을 갖춘 실력있는 미용사가 초소형견부터 초대현견까지 견주가 만족하실 퀄리티 있는 미용을 약속드립니다. <br><br>반려견 관리를 안심하고 믿고 맡겨주세요!
+        </p>
+        <h3>애니펫 패키지이용권</h3>
+        <p>
+            첫 방문시 - 미용사진인화 서비스<br>
+            12만원 코스 - 뷰티미용 2회, 탄산스파목욕 2회<br> 부분미용과 목욕 1회 프로그램을 꾸준히 관리 받으실 수 있습니다.
+        </p>
+    </div>
+</div>
+
+<div id="money">
+    <h1>비용안내</h1>
+    <div class="mn">
+        <h2>소형견</h2>
+        <table>
+            <tr style="border-top: 2px solid black; background-color: #fafafa; text-align: center; height: 40px;">
+                <td style="border-right: 1px solid #ececec;">체중</td>
+                <th style="border-right: 1px solid #ececec;">~4kg</th>
+                <th style="border-right: 1px solid #ececec;">~7kg</th>
+                <th style="border-right: 1px solid #ececec;">~9kg</th>
+                <th style="border-right: 1px solid #ececec;">~11kg</th>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">전체이용</td>
+                <td style="border-right: 1px solid #ececec;">35,000</td>
+                <td style="border-right: 1px solid #ececec;">40,000</td>
+                <td style="border-right: 1px solid #ececec;">45,000</td>
+                <td>50,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">스포팅</td>
+                <td style="border-right: 1px solid #ececec;">60,000</td>
+                <td style="border-right: 1px solid #ececec;">65,000</td>
+                <td style="border-right: 1px solid #ececec;">70,000</td>
+                <td>75,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">가위컷</td>
+                <td  style="border-right: 1px solid #ececec;">70,000</td>
+                <td  style="border-right: 1px solid #ececec;">75,000</td>
+                <td  style="border-right: 1px solid #ececec;">80,000</td>
+                <td>85,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕</td>
+                <td  style="border-right: 1px solid #ececec;">20,000</td>
+                <td  style="border-right: 1px solid #ececec;">25,000</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td>35,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">위생</td>
+                <td  style="border-right: 1px solid #ececec;">20,000</td>
+                <td  style="border-right: 1px solid #ececec;">25,000</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td>35,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕+위생</td>
+                <td  style="border-right: 1px solid #ececec;">25,000</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td>40,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목+위+얼굴</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td style="border-right: 1px solid #ececec;">40,000</td>
+                <td>45,000</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mn">
+        <h2>중형견</h2>
+        <table>
+            <tr style="border-top: 2px solid black; background-color: #fafafa; text-align: center; height: 40px;">
+                <td style="border-right: 1px solid #ececec;">체중</td>
+                <th style="border-right: 1px solid #ececec;">~7kg</th>
+                <th style="border-right: 1px solid #ececec;">~10kg</th>
+                <th style="border-right: 1px solid #ececec;">~13kg</th>
+                <th style="border-right: 1px solid #ececec;">13.1kg~</th>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">전체이용</td>
+                <td style="border-right: 1px solid #ececec;">45,000</td>
+                <td style="border-right: 1px solid #ececec;">50,000</td>
+                <td style="border-right: 1px solid #ececec;">55,000</td>
+                <td>60,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">스포팅</td>
+                <td style="border-right: 1px solid #ececec;">70,000</td>
+                <td style="border-right: 1px solid #ececec;">75,000</td>
+                <td style="border-right: 1px solid #ececec;">80,000</td>
+                <td>85,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">가위컷</td>
+                <td  style="border-right: 1px solid #ececec;">80,000</td>
+                <td  style="border-right: 1px solid #ececec;">85,000</td>
+                <td  style="border-right: 1px solid #ececec;">90,000</td>
+                <td>95,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td>40,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">위생</td>
+                <td  style="border-right: 1px solid #ececec;">25,000</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td>40,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕+위생</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td  style="border-right: 1px solid #ececec;">45,000</td>
+                <td>50,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목+위+얼굴</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td  style="border-right: 1px solid #ececec;">45,000</td>
+                <td style="border-right: 1px solid #ececec;">50,000</td>
+                <td>55,000</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mn">
+        <h2>특수견</h2>
+        <table>
+            <tr style="border-top: 2px solid black; background-color: #fafafa; text-align: center; height: 40px;">
+                <td style="border-right: 1px solid #ececec;">체중</td>
+                <th style="border-right: 1px solid #ececec;">~4kg</th>
+                <th style="border-right: 1px solid #ececec;">~7kg</th>
+                <th style="border-right: 1px solid #ececec;">~9kg</th>
+                <th style="border-right: 1px solid #ececec;">~11kg</th>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">전체이용</td>
+                <td style="border-right: 1px solid #ececec;">50,000</td>
+                <td style="border-right: 1px solid #ececec;">60,000</td>
+                <td style="border-right: 1px solid #ececec;">70,000</td>
+                <td>80,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">스포팅</td>
+                <td style="border-right: 1px solid #ececec;">70,000</td>
+                <td style="border-right: 1px solid #ececec;">80,000</td>
+                <td style="border-right: 1px solid #ececec;">90,000</td>
+                <td>100,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">가위컷</td>
+                <td  style="border-right: 1px solid #ececec;">90,000</td>
+                <td  style="border-right: 1px solid #ececec;">100,000</td>
+                <td  style="border-right: 1px solid #ececec;">110,000</td>
+                <td>120,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td  style="border-right: 1px solid #ececec;">45,000</td>
+                <td>50,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">위생</td>
+                <td  style="border-right: 1px solid #ececec;">30,000</td>
+                <td  style="border-right: 1px solid #ececec;">35,000</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td>45,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목욕+위생</td>
+                <td  style="border-right: 1px solid #ececec;">40,000</td>
+                <td  style="border-right: 1px solid #ececec;">45,000</td>
+                <td  style="border-right: 1px solid #ececec;">50,000</td>
+                <td>55,000</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="background: #fafafa; border-right: 1px solid #ececec;">목+위+얼굴</td>
+                <td  style="border-right: 1px solid #ececec;">45,000</td>
+                <td  style="border-right: 1px solid #ececec;">50,000</td>
+                <td style="border-right: 1px solid #ececec;">55,000</td>
+                <td>65,000</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mn">
+        <h2>대형견</h2>
+        <table>
+            <tr style="border-top: 2px solid black;text-align: center; height: 40px;">
+                <th style="border-right: 1px solid #ececec; background-color: #fafafa; ">전체미용</th>
+                <td style="border-right: 1px solid #ececec;">1kg / 10,000</td>
+            </tr>
+            <tr style="text-align: center; height: 40px;">
+                <th style="border-right: 1px solid #ececec; background-color: #fafafa; ">스포팅</th>
+                <td style="border-right: 1px solid #ececec;">1kg / 15,000</td>
+            </tr>
+            <tr style="text-align: center; height: 40px;">
+                <th style="border-right: 1px solid #ececec; background-color: #fafafa; ">가위컷</th>
+                <td style="border-right: 1px solid #ececec;">1kg / 20,000</td>
+            </tr>
+            <tr style="text-align: center; height: 40px;">
+                <th style="border-right: 1px solid #ececec; background-color: #fafafa; ">목욕(위생포함)</th>
+                <td style="border-right: 1px solid #ececec;">1kg / 8,000</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="fout">
+<div id="footer">
+	<a href="index.html"><img src="images/logo_footer.png" alt=""></a>
+	<p>Copyrights (C) 2020 Veterinary Medical Teaching Hospital. Anypet Animal Hospital All Rights Reserved.<br>979-742 . 경기도 용인시 수지구 만현로 9 애니펫동물병원 &nbsp; tel . 031-265-8661 &nbsp; FAX . 031-256-8662 &nbsp; EMAIL . anypet@suy.ac.kr</p>
+	<div class="move">
+		<a href="https://yonginhelpdog.modoo.at/?link=io7wyz19" target="_blank">용인시 동물보호협회 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶</a>
+	</div>
+	<div class="top"><a href="#header_wrap">Top</a></div>
+	<div class="ftl">
+		<span>개인정보취급방침</span>
+		<span>이메일무단수집거부</span>
+		<span><a href="sub00.html">병원소개</a></span>
+		<span><a href="sub03.html">오시는길</a></span>
+	</div>
+</div>
+</div>
+<script>
+    document.querySelector('.btn-menu').addEventListener('click', function(){
+    this.classList.toggle('active');});
+    
+    $(document).ready(function(){
+        $('.btn-menu').click(function(){
+            $('#hide_wrap').slideToggle(); 
+        });
+    });
+</script> 
+</body>
+</html>
